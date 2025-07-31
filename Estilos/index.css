@@ -4,7 +4,7 @@
         /* ------------------- */
         @font-face {
         font-family: 'Summer Lover';
-        src: url('../Fonts/Summer\ Lovers.ttf') format('truetype');
+        src: url('Fonts/Summer\ Lovers.ttf') format('truetype');
         font-weight: normal;
         font-style: normal;
         /* Para la versión regular de Outfit */
