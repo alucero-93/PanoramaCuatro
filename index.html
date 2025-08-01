@@ -5,9 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="Img/icpanorama.jpg" type="image/x-icon">
     <title>Panorama Cuatro | Restaurante & Jardín</title>
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet"> -->
     <link href="Fonts/css2.css" rel="stylesheet">
     <link rel="stylesheet" href="Estilos/index.css">
 </head>
@@ -28,8 +25,6 @@
 
         <section id="inicio" class="hero">
             <h1>Un Oasis de Sabor y Naturaleza</h1>
-            <!-- <p>Disfruta de una experiencia culinaria única en nuestro espectacular jardín.</p> -->
-             <!-- <p>🍴Eventos |🪴Jardín al aire libre🌋|🍤Camarones |🍔hamburguesas |🍕Pizzas</p> -->
              <p> En Panorama Cuatro nos caracterizamos por tener una personalidad exploradora, amigable, creadora y familiar,
                 nos enfocamos en brindar experiencias cálidas y únicas</p>
             <div>
@@ -43,8 +38,8 @@
             <div class="menu-filters">
                 <button class="filter-btn active" data-filter="todos">Todos</button>
                 <button class="filter-btn" data-filter="desabrunch" title="Todos los desayunos incluyen: JUGO DE NARANJA O CAFÉ">Desayuno y Brunch</button>
-                <button class="filter-btn" data-filter="fuertes">Platos Fuertes</button>
-                <button class="filter-btn" data-filter="postres">Postres</button>
+                <button class="filter-btn" data-filter="favoritos">Tus Favoritos</button>
+                <button class="filter-btn" data-filter="postres">Nuestra Variedad</button>
                 <button class="filter-btn" data-filter="bebidas">Bebidas</button>
             </div>
 
@@ -87,24 +82,84 @@
                         <h3> MUFFIN DE BANANO</h3><P>  Masa de banano con chispas de chocolate.</P><div class="menu-item-price">Q09.00</div> </div>
                 </div>
                 
-                <!-- Items desayuno y braunch -->
-                <!-- <div class="menu-item fuertes">
-                    <img src="https://source.unsplash.com/400x300/?gourmet-steak" alt="Plato de carne"> <div class="menu-item-content">
-                        <h3>Lomo en Salsa de Hongos</h3> <p>Medallón de lomo de res bañado en una cremosa salsa de hongos silvestres, acompañado de puré de papa rústico.</p> <div class="menu-item-price">Q150.00</div> </div>
+                <!-- Items Favoritos -->
+                <div class="menu-item favoritos">
+                    <img src="Img/Tus Favoritos/cajun.jpg" alt="Camarones Cajún"> 
+                    <div class="menu-item-content">
+                        <h3>CAMARONES CAJÚN</h3> 
+                        <p> Exquisita combinación de camarones, acompañados de trozos papa, elote dulce bañados en salsa de especias y cajún.</p>                         
+                        <div class="menu-item-price">
+                            (1/2 Libra) Q75.00 <br>
+                            (1 Libra) Q135.00
+                        </div>
+                    </div>
                 </div>
-                <div class="menu-item postres">
-                    <img src="https://source.unsplash.com/400x300/?chocolate-lava-cake" alt="Pastel de lava"> <div class="menu-item-content">
-                        <h3>Volcán de Chocolate</h3> <p>Pastel de chocolate tibio con centro líquido, servido con una bola de helado de vainilla artesanal.</p> <div class="menu-item-price">Q55.00</div> </div>
+                <div class="menu-item favoritos">
+                    <img src="Img/Tus Favoritos/hamburguesapanorama.jpg" alt="Hamburguesa Panorama"> 
+                    <div class="menu-item-content">
+                        <h3>HAMBURGUESA PANORAMA</h3>
+                        <p>Exquisita torta de puyazo de 6 onzas, cebolla caramelizada, tocino crujiente, tomate,  lechuga y queso mozarella, más pepinillos en un delicioso pan brioche.</p> 
+                        <div class="menu-item-price">Q85.00</div> 
+                    </div>
                 </div>
-                <div class="menu-item fuertes">
-                    <img src="https://source.unsplash.com/400x300/?salmon-dish" alt="Plato de salmon"> <div class="menu-item-content">
-                        <h3>Salmón a la Parrilla</h3> <p>Filete de salmón fresco a la parrilla con costra de finas hierbas, sobre una cama de vegetales salteados.</p> <div class="menu-item-price">Q160.00</div> </div>
+                <div class="menu-item favoritos">
+                    <img src="Img/Tus Favoritos/hamburguesachiken.jpg" alt="Hamburguesa Chicken"> 
+                    <div class="menu-item-content">
+                        <h3>HAMBURGUESA CHICKEN</h3> 
+                        <p> Pechuga de pollo empanizada, bañada en salsa BBQ con ensalada de col, queso mozzarella y pepinillos en un delicioso pan brioche.</p> 
+                        <div class="menu-item-price">Q75.00</div> 
+                    </div>
                 </div>
-                <div class="menu-item bebidas">
-                    <img src="https://source.unsplash.com/400x300/?mojito" alt="Mojito"> <div class="menu-item-content">
-                        <h3>Mojito Clásico</h3> <p>Refrescante mezcla de ron, hierbabuena fresca, limón y un toque de soda. El clásico perfecto para nuestro jardín.</p> <div class="menu-item-price">Q45.00</div> </div>
+                <div class="menu-item favoritos">
+                    <img src="Img/Tus Favoritos/shucoahumado.jpg" alt="Shuko Ahumado"> 
+                    <div class="menu-item-content">
+                        <h3>SHUKO AHUMADO</h3> 
+                        <p> Tradicional shuco chapín con guacamol, nuestra deliciosa ensalada de col y chorizo ahumado. </p> 
+                        <div class="menu-item-price">Q60.00</div> 
+                    </div>
                 </div>
+                <div class="menu-item favoritos">
+                    <img src="Img/Tus Favoritos/parrillada.jpg" alt="Parrillada Personal"> 
+                    <div class="menu-item-content">
+                        <h3>PARRILLADA (PERSONAL)</h3> 
+                        <p> Pechuga de pollo, puyazo, chorizo o longaniza acompañado de guacamol, chirmol, frijol, cebollin y 3 tortillas de la casa.</p> 
+                        <div class="menu-item-price">Q99.00</div> 
+                    </div>
+                </div>
+                <div class="menu-item favoritos">
+                    <img src="Img/Tus Favoritos/parrillada.jpg" alt="Tortilla Con Puyazo"> 
+                    <div class="menu-item-content">
+                        <h3>TORTILLA CON PUYAZO</h3> 
+                        <p> Corte de 8 onzas de puyazo acompañado de guacamol, chirmol,frijol, cebollin y 3 tortillas de la casa.  </p> 
+                        <div class="menu-item-price">Q95.00</div> 
+                    </div>
+                </div>
+                <div class="menu-item favoritos">
+                    <img src="Img/Tus Favoritos/parrillada.jpg" alt="Shuko Ahumado"> 
+                    <div class="menu-item-content">
+                        <h3>TORTILLA CON CHORIZO O LONGANIZA</h3>
+                        <p> 3 Chorizos ahumados o longanizas, guacamol, frijol volteado, chirmol y 3 tortillas de la casa.</p> 
+                        <div class="menu-item-price">Q50.00</div> 
+                    </div>
+                </div>
+                <!-- Items postres -->
+                <!-- <div class="menu-item Variedad">
+                    <img src="https://source.unsplash.com/400x300/?chocolate-lava-cake" alt="Pastel de lava"> 
+                    <div class="menu-item-content">
+                        <h3>Volcán de Chocolate</h3> 
+                        <p>Pastel de chocolate tibio con centro líquido, servido con una bola de helado de vainilla artesanal.</p> 
+                        <div class="menu-item-price">Q55.00</div> 
+                    </div>
+                </div>               
+                <div class="menu-item Variedad">
+                    <img src="https://source.unsplash.com/400x300/?mojito" alt="Mojito"> 
+                    <div class="menu-item-content">
+                        <h3>Mojito Clásico</h3> 
+                        <p>Refrescante mezcla de ron, hierbabuena fresca, limón y un toque de soda. El clásico perfecto para nuestro jardín.</p> 
+                        <div class="menu-item-price">Q45.00</div> 
+                    </div>
                 </div> -->
+            </div>
         </section>
 
         <section id="galeria">
@@ -117,6 +172,7 @@
                 <div class="gallery-item"><img src="Img/Espacios/eventos.jpg" alt="Eventos"></div>
                 <div class="gallery-item"><img src="Img/Espacios/fogatas.jpg" alt="Fogatas"></div>
                 <div class="gallery-item"><img src="Img/Espacios/naturaleza.jpg" alt="Naturaleza"></div>
+                <div class="gallery-item"><img src="Img/Espacios/comida.jpg" alt="Comida"></div>
             </div>
         </section>
 
@@ -150,13 +206,10 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36739.97048104705!2d-90.75300197284254!3d14.552644705321532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85890f2eee260baf%3A0x65021d3c7d644cc9!2sPanorama%20Cuatro!5e0!3m2!1sen!2sus!4v1753912271009!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                </div>
             </div>
         </section>
-
     </main>
-
     <footer>
         <p>&copy; 2025 Panorama Cuatro. Todos los derechos reservados.</p>
     </footer>
-
     <script>
     document.addEventListener('DOMContentLoaded', function() {
         const filterButtons = document.querySelectorAll('.filter-btn');
